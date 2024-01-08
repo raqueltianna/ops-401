@@ -16,7 +16,8 @@
 10. Final Project 
 
 ### Readings 
-- [Reading 01]
+- [The Growth Mindset](reading-growthmindset.md)
+- [Reading 01: Strategic Policy Development](reading01-strategicpolicydev.md)
 - [Reading 02]
 - [Reading 03]
 - [Reading 04]
