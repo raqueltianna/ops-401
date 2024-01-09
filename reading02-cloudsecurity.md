@@ -15,3 +15,7 @@
 - [Cloud Security Alliance (CSA)](https://cloudsecurityalliance.org/)
     - [Cloud Controls Matrix (CCM)](https://cloudsecurityalliance.org/research/cloud-controls-matrix/)
     - [CSA Security Guidance for Cloud Computing](https://cloudsecurityalliance.org/research/guidance/) 
+
+
+## Things I want to know more about
+- I would like to dig more into the levels of abstraction. AWS has always been something that I want to dig more into but really haven't too much outside of class needs.
