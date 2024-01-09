@@ -18,7 +18,7 @@
 ### Readings 
 - [The Growth Mindset](reading-growthmindset.md)
 - [Reading 01: Strategic Policy Development](reading01-strategicpolicydev.md)
-- [Reading 02]
+- [Reading 02: Cloud Security Principles and Frameworks](reading02-cloudsecurity.md)
 - [Reading 03]
 - [Reading 04]
 - [Reading 05]
