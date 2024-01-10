@@ -3,7 +3,7 @@
 # Script Name:                          uptimesensorpt1.py
 # Author name:                          Tianna Farrow
 # Date of latest revision:              01/09/2024
-# Purpose:                              Using "if statements" in Python. 
+# Purpose:                              Transmit a single ICMP (ping) packet to a specific IP every two seconds, Evaluate the response as either success or failure, Assign success or failure to a status variable, For every ICMP transmission attempted, print the status variable along with a comprehensive timestamp and destination IP tested.. 
 # Execution:                            python3 uptimesensorpt1.py
 # Additional Resources:                 https://docs.python.org/3/library/subprocess.html; https://stackoverflow.com/questions/2953462/pinging-servers-in-python; https://stackoverflow.com/questions/35750041/check-if-ping-was-successful-using-subprocess-in-python; https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes; https://docs.python.org/3/reference/expressions.html#conditional-expressions; https://docs.python.org/3/reference/lexical_analysis.html#f-strings
 
@@ -20,7 +20,7 @@ def ping_host(ip):
         return False
     
 def main():
-    ip_address = '192.168.1.62' 
+    ip_address = input("Enter the IP address: ")
 
     while True:
         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')[:-3]
