@@ -1,7 +1,7 @@
 # Ops 401.
 
 ## Fundamentals: 
-- In 401 we delve into critical topics like cyber frameworks, data encryption, cloud security, network security, threat modeling, shell scripting, vulnerability scanning, incident response, and gain ethical hacker skills in pentration testing.
+- In 401 we delve into critical topics like cyber frameworks, data encryption, cloud security, network security, threat modeling, shell scripting, vulnerability scanning, incident response, and gain ethical hacker skills in penetration testing.
 
 ## Class Modules
 1. Governance, Risk, and Compliance (GRC)
@@ -9,7 +9,7 @@
 3. Security Operations
 4. Cloud Security
 5. Midterm
-6. Threat Modeling and Anaylsis
+6. Threat Modeling and Analysis
 7. Threat Hunting
 8. Web Application Security
 9. Penetration Testing
@@ -19,8 +19,8 @@
 - [The Growth Mindset](reading-growthmindset.md)
 - [Reading 01: Strategic Policy Development](reading01-strategicpolicydev.md)
 - [Reading 02: Cloud Security Principles and Frameworks](reading02-cloudsecurity.md)
-- [Reading 03]
-- [Reading 04]
+- [Reading 03: Cyber Risk Analysis](reading03-cyberriskanalysis.md)
+- [Reading 04: Systems Hardening with CIS Standards](reading04-systemhardeningcisstandards.md)
 - [Reading 05]
 - [Reading 06]
 - [Reading 07]
@@ -65,11 +65,11 @@
 
 
 ### Ops Challenges 
-- [Uptime Sensor Tool Pt.1]
+- [Uptime Sensor Tool Pt.1](uptimesensorpt1.py)
 - [Uptime Sensor Tool Pt.2]
 - [File Encryption]
 - [File Encryption Script Pt.1]
 - [File Encryption Script Pt.2]
 - [File Encryption Script Pt.3]
-- [Advanced Event Logging with Sysmon]
+- [Advanced Event Logging with System]
 
