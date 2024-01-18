@@ -5,23 +5,30 @@
 # Date of latest revision:              01/16/2024
 # Purpose:                              A script that encrypts a single file
 # Execution:                            python3 opschallenge6.py
-# Additional Resources:                 https://pypi.org/project/cryptography/; https://www.geeksforgeeks.org/fernet-symmetric-encryption-using-cryptography-module-in-python/; https://github.com/codefellows/seattle-cybersecurity-401d10/blob/main/class-06/challenges/DEMO.md; https://thepythoncode.com/article/encrypt-decrypt-files-symmetric-python; https://cryptography.io/en/latest/; https://cryptography.io/en/latest/fernet/; https://www.programiz.com/python-programming/input-output-import 
+# Additional Resources:                 https://pypi.org/project/cryptography/; https://www.freecodecamp.org/news/how-to-check-if-a-file-exists-in-python/; https://www.geeksforgeeks.org/fernet-symmetric-encryption-using-cryptography-module-in-python/; https://github.com/codefellows/seattle-cybersecurity-401d10/blob/main/class-06/challenges/DEMO.md; https://thepythoncode.com/article/encrypt-decrypt-files-symmetric-python; https://cryptography.io/en/latest/; https://cryptography.io/en/latest/fernet/; https://www.programiz.com/python-programming/input-output-import 
 
 # Import cryptography libra and file handle 
 from cryptography.fernet import Fernet 
 import os
 
-# generate a random key
+KEY_FILE = "secret.key"
+
+# generate a random key if not exists
 def generate_key():
-    return Fernet.generate_key()
+    if not os.path.isfile(KEY_FILE):
+        key = Fernet.generate_key()
+        save_key(key)
+    else:
+        key = load_key()
+    return key
 
 # save the key to a file
-def save_key(key, filename="secret.key"):
+def save_key(key, filename=KEY_FILE):
     with open(filename, "wb") as key_file:
         key_file.write(key)
 
 # load the key from a file
-def load_key(filename="secret.key"):
+def load_key(filename=KEY_FILE):
     return open(filename, "rb").read()
 
 # encrypt a file using the provided key
@@ -55,10 +62,8 @@ def decrypt_string(text, key):
     print("Decrypted String:", decrypted_text.decode())
 
 def main():
-    # Generate a random key
+    # Generate a random key or load existing key
     key = generate_key()
-    # Save the key to a file
-    save_key(key)
 
     # Display user options
     print("Select mode:")
