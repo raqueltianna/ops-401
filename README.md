@@ -21,11 +21,9 @@
 - [Reading 02: Cloud Security Principles and Frameworks](reading02-cloudsecurity.md)
 - [Reading 03: Cyber Risk Analysis](reading03-cyberriskanalysis.md)
 - [Reading 04: Systems Hardening with CIS Standards](reading04-systemhardeningcisstandards.md)
-- [Reading 05]
-- [Reading 06]
-- [Reading 07]
-- [Reading 08]
-- [Reading 09]
+- [Reading 06: Data File Encryption](reading06-datafileencryption.md)
+- [Reading 07: Protecting Data at Rest with Device Encryption](reading07)
+- [Reading 09: Public Key Infrastructure (PKI)](reading09-publickeyinfrastrucutre.md)
 - [Reading 10]
 - [Reading 11]
 - [Reading 12]
@@ -66,10 +64,6 @@
 
 ### Ops Challenges 
 - [Uptime Sensor Tool Pt.1](uptimesensorpt1.py)
-- [Uptime Sensor Tool Pt.2]
-- [File Encryption]
-- [File Encryption Script Pt.1]
-- [File Encryption Script Pt.2]
-- [File Encryption Script Pt.3]
-- [Advanced Event Logging with System]
+- [Uptime Sensor Tool Pt.2](uptimesensorpt2.py)
+
 
