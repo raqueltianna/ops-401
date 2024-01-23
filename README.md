@@ -25,7 +25,7 @@
 - [Reading 07: Protecting Data at Rest with Device Encryption](reading07)
 - [Reading 09: Public Key Infrastructure (PKI)](reading09-publickeyinfrastrucutre.md)
 - [Reading 10]
-- [Reading 11]
+- [Reading 11: Setting up Splunk SIEM](reading11-settingupsplunk.md)
 - [Reading 12]
 - [Reading 13]
 - [Reading 14]
