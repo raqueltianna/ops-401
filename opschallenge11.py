@@ -6,7 +6,8 @@
 # Purpose:                          Beginning development of your own network scanning tool utilizing Python library Scapy. 
 # Execution                         python3 opschallenge11.py 
 # Additional Resources:             https://scapy.readthedocs.io/en/latest/index.html; https://scapy.readthedocs.io/en/latest/introduction.html#; https://scapy.readthedocs.io/en/latest/extending.html; https://github.com/codefellows/seattle-cybersecurity-401d10/blob/main/class-11/challenges/demo.py;https://github.com/codefellows/seattle-cybersecurity-401d10/blob/main/class-11/challenges/DEMO.md 
-# Note:                             I have to go back in and add the ports and IP addresses. I was a little confused and just made a code based off of the resources but I need to go back and watch the class video where Roger demo'd.
+# Note:                             
+
 # Import necessary modules from scapy library
 from scapy.all import IP, TCP, sr1, Ether, RandShort
 
@@ -44,12 +45,12 @@ def tcp_port_range_scanner(host, start_port, end_port):
 
 # Entry point of the script
 if __name__ == "__main__":
-    # Specify the target host IP address
-    host = 'ip'
-    # Specify the starting port of the range
-    start_port = 1
-    # Specify the ending port of the range
-    end_port = 100
+    # Prompt user for target host IP address
+    host = input("Enter the target IP address: ")
+
+    # Prompt user for port range
+    start_port = int(input("Enter the starting port of the range: "))
+    end_port = int(input("Enter the ending port of the range: "))
 
     # Call the tcp_port_range_scanner function with the specified parameters
     tcp_port_range_scanner(host, start_port, end_port)
