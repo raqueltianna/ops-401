@@ -26,7 +26,7 @@
 - [Reading 09: Public Key Infrastructure (PKI)](reading09-publickeyinfrastrucutre.md)
 - [Reading 10]
 - [Reading 11: Setting up Splunk SIEM](reading11-settingupsplunk.md)
-- [Reading 12]
+- [Reading 12: Log Analysis with Splunk](reading12-loganalysiswithsplunk.md)
 - [Reading 13]
 - [Reading 14]
 - [Reading 15]
