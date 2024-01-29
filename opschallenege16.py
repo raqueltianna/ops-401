@@ -5,8 +5,8 @@
 # Date of latest revision:              01/29/2024
 # Purpose:                              Using "if statements" in Python. 
 # Execution:                            python3 opschallenge16.py
-# Additional Resources:                 https://www.geeksforgeeks.org/iterate-over-a-set-in-python/
-# Notes:  
+# Additional Resources:                 https://www.geeksforgeeks.org/iterate-over-a-set-in-python/; https://github.com/raqueltianna/ops-401/blob/main/warmup.py
+# Notes:                                Using the above the resource, I created this code based off of a warm up code during lecture which is also linked in the resources. 
 
 import time
 
