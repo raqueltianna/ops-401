@@ -3,7 +3,7 @@
 # Script Name:                          opschallenge16.py
 # Author name:                          Tianna Farrow
 # Date of latest revision:              01/29/2024
-# Purpose:                              Using "if statements" in Python. 
+# Purpose:                              begin to develop a custom tool that performs brute force attacks to better understand the types of automation employed by adversaries. 
 # Execution:                            python3 opschallenge16.py
 # Additional Resources:                 https://www.geeksforgeeks.org/iterate-over-a-set-in-python/; https://github.com/raqueltianna/ops-401/blob/main/warmup.py
 # Notes:                                Using the above the resource, I created this code based off of a warm up code during lecture which is also linked in the resources. 
