@@ -2,7 +2,7 @@
 
 # Script Name:                          attack.py
 # Author name:                          Tianna Farrow
-# Date of latest revision:              02/07/2024
+# Date of latest revision:              02/08/2024
 # Purpose:                              stimulating an attack on host ip
 # Execution:                            python3 attack.py
 # Additional Resources:                 https://docs.python.org/3/library/logging.html; https://docs.python.org/3/library/random.html; https://docs.python.org/3/howto/logging.html; https://docs.python.org/3/library/string.html; https://stackoverflow.com/questions/52057356/the-literal-format-of-format-asctimes-levelnames-messages; 
