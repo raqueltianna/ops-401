@@ -2,10 +2,10 @@
 
 # Script Name:                      opschallenge26.py 
 # Author Name:                      Tianna Farrow
-# Date of Latest Revision:          02/13/24
-# Purpose:                          add logging capabilities and file handler to a previous script 
+# Date of Latest Revision:          02/14/24
+# Purpose:                          add logging capabilities and file handler and stream handler to a previous script 
 # Execution                         python3 opschallenge26.py 
-# Additional Resources:             https://github.com/raqueltianna/ops-401/blob/main/opschallenge12.py; https://github.com/raqueltianna/ops-401/blob/main/opschallenge27.py; https://github.com/Data-Dazzlers/Scripts/blob/main/sshbruteforce.py; https://github.com/raqueltianna/ops-401/blob/main/opschallenege26.py; 
+# Additional Resources:            https://realpython.com/python-logging/#using-handlers;  https://github.com/raqueltianna/ops-401/blob/main/opschallenge12.py; https://github.com/raqueltianna/ops-401/blob/main/opschallenge27.py; https://github.com/Data-Dazzlers/Scripts/blob/main/sshbruteforce.py; https://github.com/raqueltianna/ops-401/blob/main/opschallenege26.py; 
 
 from scapy.all import IP, ICMP, sr1, RandShort, TCP
 from ipaddress import ip_network
