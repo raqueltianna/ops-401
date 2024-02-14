@@ -1,1 +1,2 @@
 2024-02-13 12:07:23,803 - ERROR - Unexpected error occurred: invalid literal for int() with base 10: ''
+2024-02-14 12:26:01,656 - ERROR - Error occurred during ICMP Ping Sweep: [Errno 1] Operation not permitted
