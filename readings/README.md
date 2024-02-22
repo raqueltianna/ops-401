@@ -1,1 +1,28 @@
+# Readings 
 
+This is a collection of my reading assignments and answering questions in regards to the articles that are in each reading!
+
+- [The Growth Mindset](reading-growthmindset.md)
+- [Reading 01: Strategic Policy Development](reading01-strategicpolicydev.md)
+- [Reading 02: Cloud Security Principles and Frameworks](reading02-cloudsecurity.md)
+- [Reading 03: Cyber Risk Analysis](reading03-cunerriskanalysis.md)
+- [Reading 04: System Hardening with CIS Standards](reading04-systemhardeningcisstandards.md)
+- [Reading 06: Data File Encryption](reading06-datafileencryption.md)
+- [Reading 07: Protecting Data at Rest with Device Encryption](reading07-protectingdataatrest.md)
+- [Reading 09: Public Key Infrastructure](reading09-publickeyinfrastructure.md)
+- [Reading 11: Setting up Splunk SIEM](reading11-settingupsplunk.md)
+- [Reading 12: Log Analysis with Splunk](reading12-loganalysiswithsplunk.md)
+- [Reading 13: Reconstructing a Cloud Attack with Splunk](reading13-reconstructingacloudattack.md)
+- [Reading 14: Intrusion Detection and Prevention Systems](reading14-idpandips.md)
+- [Reading 16: Cloud Identity and Access Management (IAM) with AWS](reading16-cloudidentityandiam.md)
+- [Reading 17: Cloud Network Security](reading17-cloudnetworksecurity.md)
+- [Reading 18: Logging and Monitoring](reading18-loggingandmonitoring.md)
+- [Reading 19: Cloud Detective Controls](reading19-clouddetectivecontrols.md)
+- [Reading 26: Remote Code Execution](reading26-remotecodeexecution.md)
+- [Reading 27: Persistence](reading27-persistence.md)
+- [Reading 28: Log Clearing](reading28-logclearing.md)
+- [Reading 29: Modeling a Web Application](reading29-modelingwebapp.md)
+- [Reading 31: Malware Detection with YARA Rules](reading31-malwaredetectionwithyara.md)
+- [Reading 32: Malware Traffic Analysis with Wireshark](reading32-malwaretrafficanalysis.md)
+- [Reading 33: Threat Hunting with Security Onion](reading33-threathuntingwithonion.md)
+- [Reading 34: Forensics Investigation with Autopsy](reading34-forensicsinvestigation.md)
