@@ -52,9 +52,11 @@ def submit_form(form_details, url, value):
             data[input_name] = input_value
 
     if form_details["method"] == "post":
-        return requests.post(target_url, data=data)
+        response = requests.post(target_url, data=data)
     else:
-        return requests.get(target_url, params=data)
+        response = requests.get(target_url, params=data)
+    
+    return response
 
 ### This function scans for XSS vulnerabilities on a given URL ###
 def scan_xss(url):
@@ -64,7 +66,8 @@ def scan_xss(url):
     is_vulnerable = False
     for form in forms:
         form_details = get_form_details(form)
-        content = submit_form(form_details, url, js_script).content.decode()
+        response = submit_form(form_details, url, js_script)
+        content = response.content.decode('utf-8', errors='ignore')
         if js_script in content:
             print(f"[+] XSS Detected on {url}")
             print(f"[*] Form details:")
@@ -82,3 +85,8 @@ if __name__ == "__main__":
 ### TODO: When you have finished annotating this script with your own comments, copy it to Web Security Dojo
 ### TODO: Test this script against one XSS-positive target and one XSS-negative target
 ### TODO: Paste the outputs here as comments in this script, clearling indicating which is positive detection and negative detection
+### Output from XSS-negative target:
+    ### Enter a URL to test for XSS:http://google.com
+    ### [+] Detected 1 forms on http://google.com.
+    ### False
+
